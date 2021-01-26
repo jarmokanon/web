@@ -1,0 +1,1 @@
+<h1>Our work</h1><?php /**PATH /Users/jarmo/mylaraportfolio/resources/views/work.blade.php ENDPATH**/ ?>

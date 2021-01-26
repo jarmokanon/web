@@ -1,0 +1,1 @@
+<?php /**PATH /Users/jarmo/mylaraportfolio/resources/views/includes/header.blade.php ENDPATH**/ ?>

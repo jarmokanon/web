@@ -1,0 +1,1 @@
+<h1>about</h1><?php /**PATH /Users/jarmo/mylaraportfolio/resources/views/pages/about.blade.php ENDPATH**/ ?>
