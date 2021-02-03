@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -6,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -28,7 +27,6 @@
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                        
                     </ul>
                 </div>
 
@@ -48,7 +46,7 @@
                         <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Naar beneden</a>
                     </div>
 
-                    <img src="img/perfil.png" alt="" class="home__img">
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
                 </div>
             </section>
             
@@ -58,18 +56,21 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="img/perfil.png" alt="">
+                        <img src="assets/img/perfil.png" alt="">
                     </div>
 
                     <div>
                         <h2 class="about__subtitle">Ik ben Jarmo Kanon</h2>
                         <span class="about__profession">Web developer</span>
-                        <p class="about__text">Ik volg de drie jarige opleiding "webdeveloper" op het Grafisch Lyceum Utrecht. Dit is een mbo niveau 4 opleiding.</p>
+                        <p class="about__text">Ik ben 18 jaar. Student webdeveloper, op het Grafisch Lyceum Utrecht. Ik vind het heel leuk om bezig te zijn met projecten, ik vind vooral front-end heel leuk om te doen.</p>
+                        <p class="about__text">Ik heb een TL (mavo) diploma gehaald op het Oosterlicht College Vianen. Daarna ben ik de drie jarige opleiding "webdeveloper" gaan doen op het Grafisch Lyceum Utrecht. Dit is een mbo niveau 4 opleiding.</p>
+                        <p class="about__text">Als ik iets interessant of leuk vind dan kan ik mijzelf daar echt enorm in verdiepen totdat ik er alles van weet of kan. Ik denk dat dat wel een goede eigenschap van mijzelf is.</p>
+
 
                         <div class="about__social">
+                            <a href="https://github.com/jarmokanon/web.git" class="about__social-icon"><i class='bx bxl-github' ></i></a>
                             <a href="#" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
                             <a href="#" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
-                            <a href="#" class="about__social-icon"><i class='bx bxl-github' ></i></a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +97,7 @@
                     </div>
 
                     <div class="skills__img">
-                        <img src="img/skill.jpg" alt="">
+                        <img src="assets/img/skill.jpg" alt="">
                     </div>
                 </div>
             </section>
@@ -107,45 +108,52 @@
 
                 <div class="portfolio__container bd-grid">
                     <div class="portfolio__img">
-                        <img src="img/work1.jpg" alt="">
+                        <img src="assets/img/work1.jpg" alt="">
 
                         <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
+                            <a href="" class="portfolio__link-name">Project hotel webiste.</a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="img/work2.jpg" alt="">
+                        <img src="assets/img/work2.jpg" alt="">
 
                         <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
+                            <a href="#" class="portfolio__link-name">Webshop project.</a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="img/work3.jpg" alt="">
+                        <img src="assets/img/work3.jpg" alt="">
 
                         <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
+                            <a href="#" class="portfolio__link-name">Project over PhotoShop poster. </a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="img/work4.jpg" alt="">
+                        <img src="assets/img/work4.jpg" alt="">
 
                         <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
+                            <a href="#" class="portfolio__link-name">Website kapper. </a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="img/work5.jpg" alt="">
+                        <img src="assets/img/work5.jpg" alt="">
 
                         <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
+                            <a href="#" class="portfolio__link-name">Oude portfolio website. </a>
                         </div>
                     </div>
                     <div class="portfolio__img">
-                        <img src="img/work6.jpg" alt="">
+                        <img src="assets/img/work6.jpg" alt="">
 
                         <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">View details</a>
+                            <a href="#" class="portfolio__link-name">Ticket systeem met admin-panel. </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work6.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">Ticket systeem met admin-panel. </a>
                         </div>
                     </div>
                 </div>
@@ -200,7 +208,7 @@
                 
                 <div class="footer__data">
                     <h2 class="footer__title">FOLLOW</h2>
-                    <a href="#" class="footer__social"><i class='bx bxl-github' ></i></a>
+                    <a href="https://github.com/jarmokanon" class="footer__social"><i class='bx bxl-github' ></i></a>
                     <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
                     <a href="#" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
                 </div>
@@ -213,6 +221,6 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="js/main.js"></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
